@@ -1,0 +1,219 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Raleway", sans-serif;
+    font-style: normal;
+}
+
+p {
+    font-size: 15px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    height: 100px;
+    margin: 30px 40px;
+}
+
+.logo {
+    width: 100px;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    width: 250px;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+li a {
+    text-decoration: none;
+    color: black;
+}
+
+.section1, .section2 {
+    display: flex;
+    justify-content: space-between;
+    height: 450px;
+    padding: 0 40px;
+}
+
+.section2 {
+    background-image: url('backgroundcurve.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover
+}
+
+.illustrationimg1, .illustrationimg2 {
+    width: 500px;
+}
+
+.section1div1 {
+    width: 360px;
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    gap: 15px;
+}
+
+.section1div1 input {
+    width: 230px;
+    height: 30px;
+}
+
+.section1div1 button {
+    width: 130px;
+    height: 30px;
+    margin-top: -45px;
+    margin-left: 240px;
+    background-color: rgb(20, 102, 226);
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+
+.section2div1 {
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    gap: 15px;
+}
+
+.section2div1 a{
+    color: aquamarine;
+}
+
+.section2div2 {
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    gap: 10px;
+    border: 1px solid rgb(255, 255, 255);
+    margin-top: 25px;
+    padding: 20px;
+    box-shadow: 0px 0px 5px rgb(56, 56, 56);
+    border-radius: 5px;
+    background-color: white;
+}
+
+.quotes {
+    width: 20px;
+}
+
+.avatar {
+    width: 40px;
+    border-radius: 50%;
+}
+
+.testimonial {
+    display: flex;
+    gap: 10px;
+    background-color: white;
+}
+
+.footerdiv1 {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(34, 62, 74);
+    color: white;
+    height: 200px;
+}
+
+.footerdiv1_div1, .footerdiv1_div2 {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    align-self: center;
+    gap: 15px;
+    margin: 0 40px;
+}
+
+.footerdiv1_div2 input {
+    width: 300px;
+    height: 30px;
+    border-radius: 1px;
+    border: 0;
+    font-size: 10px;
+}
+
+.footerdiv1_div2 {
+    padding: 80px;
+}
+
+.footerdiv1_div2 label {
+    font-size: 10px;
+}
+
+.footerdiv1_div2 button {
+    width: 170px;
+    height: 35px;
+    background-color: rgb(20, 102, 226);
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 12px;
+}
+
+.footerdiv2 {
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(1, 1, 13);
+    color: white;
+    height: 300px;
+    align-items: center;
+}   
+
+.footerdiv2_div1 {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-top: -30px;
+}
+
+.logo2 {
+    width: 100px;
+}
+
+.footerdiv2 a {
+    text-decoration: none;
+    color: white;
+}
+
+.footerdiv2 a:hover {
+    color: rgb(20, 102, 226);
+}
+
+.footerdiv2 ul {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-top: 100px;
+}
+
+.footerdiv2_div4 {
+    display: flex;
+    gap: 20px;
+    padding-right: 100px;
+}
+
+.footerdiv2_div2 {
+    padding-left: 100px;
+    margin-top: -10px;
+}
+
+.footerdiv2_div1 img {
+    padding-bottom: 20px;
+}
+
+.footerdiv2_div3 {
+    margin-top: -40px;
+}
